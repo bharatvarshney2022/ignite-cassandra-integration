@@ -1,0 +1,13 @@
+CREATE KEYSPACE tweet   WITH replication = {'class':'SimpleStrategy', 'replication_factor' : 3};
+CREATE TABLE twitter  (
+   id bigint  PRIMARY KEY,
+  created_at  text,
+   text  text
+   );
+
+CREATE TABLE twitterSourceData (
+   id bigint  PRIMARY KEY,
+   source text,
+   user text,
+   parent_id bigint  
+   );
