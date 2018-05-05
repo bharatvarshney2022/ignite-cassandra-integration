@@ -24,10 +24,11 @@ Steps to build the project:
 	
 9. After the completion of the build. Execute the below command to run the application.
     C:/>cd target
-	C:/>java -jar tsys-ignite-nosql-integration-0.0.1-SNAPSHOT.jar 
+	C:/>java -jar nextgen-ignite-nosql-integration-0.0.1-SNAPSHOT.jar 
 
 10. After running the command the Application must be Up.
 11. To Test the application, hit the following URL 
+
 		Select the data using Ignite Query
 		http://{host}:{port}/datawarehouse/fetch/cassandra/ignite/
 		
